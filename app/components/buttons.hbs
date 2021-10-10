@@ -1,0 +1,60 @@
+<div class="buttons-container">
+    <button  value="AC" type="button" {{on "click" @clearDisplay}}>
+        AC
+      </button>
+      <button  {{on "click" @clearDisplay}} value="C" type="button">
+        C
+      </button>
+      <button value="-" type="button" {{on "click" @plusOrMinusToggle}}>
+        +/-
+      </button>
+      <button class="operator" {{on "click" @insertOperator}} value=" ÷ " type="button">
+        ÷
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="7" type="button">
+        7
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="8" type="button">
+        8
+      </button>
+      <button class="numButton"  {{on "click" @updateNumber}} value="9" type="button">
+        9
+      </button>
+      <button class="operator" {{on "click" @insertOperator}} value=" x " type="button">
+        *
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="4" type="button">
+        4
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="5" type="button">
+        5
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}}  value="6" type="button">
+        6
+      </button>
+      <button class="operator" {{on "click" @insertOperator}}  value=" - " type="button">
+        -
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="1" type="button">
+        1
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="2" type="button">
+        2
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="3" type="button">
+        3
+      </button>
+      <button class="operator" {{on "click" @insertOperator}} type="button" value=" + ">
+          +
+      </button>
+      <button class="numButton" {{on "click" @updateNumber}} value="0" type="button">
+        0
+      </button>
+      <button type="button">%</button>
+      <button  value="." {{on "click" @updateNumber}} type="button">
+        .
+      </button>
+      <button  {{on "click" @insertOperator}} value="=" type="button">
+        =
+      </button>
+</div>

@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+}
+
+.calc-container {
+    width: 300px;
+    margin: auto;
+}
+
+.live-display, .formula-display {
+    margin: 0;
+    padding: 0.2rem 1rem 0.2rem 0.2rem;
+    text-align: right;
+
+}
+
+.live-display {
+    font-size: 20px;
+}
+
+.formula-display {
+    font-size: 12px;
+    margin-top: 0.4rem;
+}
+
+.display {
+    background: whitesmoke;
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    box-shadow: inset 0 0 10px black;
+}
+
+.buttons-container {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+button {
+    font-size: 2rem;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 0.2rem;
+  }
+  
+  button:hover {
+    background: khaki;
+  }
+  
+  button:active {
+    background: forestgreen;
+    color: whitesmoke;
+  }
